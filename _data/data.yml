@@ -82,10 +82,11 @@ experiences:
         
         Topics include security issues with Intel SGX, smart home IoT devices and distributed filesystem.
           - Dist-Fuzz (in progress): A generic fuzzing framework for finding semantic bugs in distributed filesystems.
-          - P2FaaS (arXiv): A new ecosystem that preserves privacy while providing \n Fuzzing-as-a-Service in the cloud using Intel SGX, SGX Card and oblivious crashing.
-          - Rome (sponsored by Samsung): A Wi-Fi router design and implementation for home \n IoT devices with
-            full compatibility and three-layer access control. \n Under submission. Patent in progress.
-          - SGX101 (sponsored by Intel): Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), \n an Intel SGX tutorial website
+          - P2FaaS (arXiv): A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
+            using Intel SGX, SGX Card and oblivious crashing.
+          - Rome (sponsored by Samsung): A Wi-Fi router design and implementation for home IoT devices with
+            full compatibility and three-layer access control. Under submission. Patent in progress.
+          - SGX101 (sponsored by Intel): Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), an Intel SGX tutorial website
             with programming examples and reference resources.
 
     - role: Teaching Assistant
