@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Fan Sang
-    tagline: Current Ph.D. in Computer Security
+    tagline: Ph.D. in Computer Security
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: fsang@gatech.edu
-    phone: 310 307 9797
+    phone: (310)307-9797
     website: #do not add http://
     linkedin: fan-sang
     github: sangfansh
@@ -46,59 +46,64 @@ sidebar:
 career-profile:
     title: Personal Information
     summary: |
-      First year PhD in Computer Security at Georgia Institute of Technology.
-      Member of Gatech [SSLab](gts3.org) with professor Taesoo Kim. Highly 
-      interested in CTF and exploitation techniques. You can [download this free resume/CV template here]().
+      I'm a second year Ph.D student in Computer Security at Georgia Institute of Technology
+      My research interests include: 
+      System Security, IoT Security, Trusted Computing, Reverse Engineering, and Distributed System.
+      I'm also very interested in playing Capture-the-Flag (CTF).
       
 education:
-    - degree: PhD in Computer Security
+    - degree: Ph.D. in Computer Security
       university: Georgia Institute of Technology
-      time: 2018 - present
+      time: Jun 2018 - present
       details: |
-        I joined SSLab in June 2018. I'm currently working on:
+        I joined [SSLab](https://gts3.org) as a Ph.D. student in June 2018. My Advisor is [Dr. Taesoo Kim](https://taesoo.kim).
+        Currently I'm working on finding bugs in distributed systems.
 
-          - Secure Intel SGX application loader to automatilly apply side channel attack mitigations.
-          - Scallable Secure Database on multi-socket SGX board. 
-
-    - degree: BS in Computer Science
+    - degree: B.S. in Computer Science
       university: University of Southern California
-      time: 2014 - 2018
+      time: Aug 2014 - May 2018
       details: |
-        I graduated from University of Southern California with Bachelor's degree in May 2018.
-
+        I graduated from University of Southern California in May 2018.
           - GPA 3.83/4.00
-          - Graduate with honor 
-          - Teaching Assistant of CSCI 270 Introduction to Algorithms & Theory of Computing
-          - Teaching Assistant of CSCI 103 Introduction to Programming
+          - Magna cum Laude, Graduation with University Honors
+          - Academic Achievement Awards and Deans List 
 
 experiences:
-    - role: Graduate Research Assistant
-      time: 2018 - Present
-      company: SSLab at Georgia Institute of Technology
-      details: |
-
-          - Goal: to build a Valgrind memcheck like functionality to DECAF, a binary analysis platform based on QEMU
-          - Implemented DECAF plugins for memory error detection such as double free and undefindedness check. 
-
     - role: Research Assistant
-      time: 2017 - 2018
-      company: University of California, Riverside
+      time: Jun 2018 - Present
+      company: Georgia Institute of Technology, Atlanta, GA
       details: |
+        Research in [System Software & Security Lab](https://gts3.org); Advisor: [Dr. Taesoo Kim](https://taesoo.kim)
+        Topics include security issues with Intel SGX, smart home IoT devices and distributed filesystem.
+          - Dist-Fuzz (in progress): A generic fuzzing framework for finding semantic bugs in distributed filesystems.
+          - P2FaaS (arXiv): A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
+            using Intel SGX, SGX Card and oblivious crashing.
+          - Rome (sponsored by Samsung): A Wi-Fi router design and implementation for home IoT devices with
+            full compatibility and three-layer access control. Under submission. Patent in progress.
+          - SGX101 (sponsored by Intel): Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), an Intel SGX tutorial website
+            with programming examples and reference resources.
 
-          - Goal: to build a Valgrind memcheck like functionality to DECAF, a binary analysis platform based on QEMU.
-          - Implemented DECAF plugins for memory error detection such as double free and undefindedness check. 
+    - role: Teaching Assistant
+      time: Aug 2019 - Dec 2019
+      company: Georgia Institute of Technology, Atlanta, GA
+      details: |
+        Teaching Assistant for CS 6265,
+        Information Security Labs [https://tc.gts3.org/cs6265/2019/](https://tc.gts3.org/cs6265/2019/).
+
+    - role: CTF Team Member, Team r00timentary
+      time: Jun 2018 - Present
+      company: Georgia Institute of Technology, Atlanta, GA
+      details: |
+        Member of Capture-the-Flag (CTF) team r00timentary.
+        8th place in DEFCON 27 CTF.
 
     - role: Research Internship
-      time: 06.2017 - 08.2014
-      company: Baidu X-Lab, Baidu USA
+      time: Jun 2017 - Aug 2017
+      company: Baidu X-Lab, Sunnyvale, CA
       details: |
-
-          - Keywords: anomaly detection, machine learning, entity embedding
-          - Conducted abnormal account activities detection using machine learning and neural network.
-          - Improved accuracy of prediction results by selecting top tier models based on scoring system and generating the result based on a majority vote of selected models.
-          - Learnt entity embedding and implemented it for heterogeneous categorical events.
-          - Utilized Hadoop and Spark for big data manipulation.
-
+        Intern in the Baidu X-Lab security research team.
+        Worked on abnormal account activities detection using neural network.
+        
 projects:
     title: Projects
     intro: >
