@@ -46,9 +46,11 @@ sidebar:
 career-profile:
     title: Personal Information
     summary: |
-      I'm a second year Ph.D student in Computer Security at Georgia Institute of Technology
+      I'm a second year Ph.D student in Computer Security at Georgia Institute of Technology.
+
       My research interests include: 
       System Security, IoT Security, Trusted Computing, Reverse Engineering, and Distributed System.
+
       I'm also very interested in playing Capture-the-Flag (CTF).
       
 education:
@@ -56,7 +58,10 @@ education:
       university: Georgia Institute of Technology
       time: Jun 2018 - present
       details: |
-        I joined [SSLab](https://gts3.org) as a Ph.D. student in June 2018. My Advisor is [Dr. Taesoo Kim](https://taesoo.kim).
+        I joined [SSLab](https://gts3.org) as a Ph.D. student in June 2018.
+
+        My Advisor is [Dr. Taesoo Kim](https://taesoo.kim).
+        
         Currently I'm working on finding bugs in distributed systems.
 
     - degree: B.S. in Computer Science
@@ -74,13 +79,13 @@ experiences:
       company: Georgia Institute of Technology, Atlanta, GA
       details: |
         Research in [System Software & Security Lab](https://gts3.org); Advisor: [Dr. Taesoo Kim](https://taesoo.kim)
+        
         Topics include security issues with Intel SGX, smart home IoT devices and distributed filesystem.
           - Dist-Fuzz (in progress): A generic fuzzing framework for finding semantic bugs in distributed filesystems.
-          - P2FaaS (arXiv): A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
-            using Intel SGX, SGX Card and oblivious crashing.
-          - Rome (sponsored by Samsung): A Wi-Fi router design and implementation for home IoT devices with
-            full compatibility and three-layer access control. Under submission. Patent in progress.
-          - SGX101 (sponsored by Intel): Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), an Intel SGX tutorial website
+          - P2FaaS (arXiv): A new ecosystem that preserves privacy while providing \n Fuzzing-as-a-Service in the cloud using Intel SGX, SGX Card and oblivious crashing.
+          - Rome (sponsored by Samsung): A Wi-Fi router design and implementation for home \n IoT devices with
+            full compatibility and three-layer access control. \n Under submission. Patent in progress.
+          - SGX101 (sponsored by Intel): Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), \n an Intel SGX tutorial website
             with programming examples and reference resources.
 
     - role: Teaching Assistant
@@ -103,7 +108,7 @@ experiences:
       details: |
         Intern in the Baidu X-Lab security research team.
         Worked on abnormal account activities detection using neural network.
-        
+
 projects:
     title: Projects
     intro: >
