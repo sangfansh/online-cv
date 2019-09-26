@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Fan Sang
-    tagline: Ph.D. in Computer Security
+    tagline: Ph.D. in Computer Science
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -46,7 +46,7 @@ sidebar:
 career-profile:
     title: Personal Information
     summary: |
-      I'm a second year Ph.D student in Computer Security at Georgia Institute of Technology.
+      I'm a second year Ph.D student in Computer Sciecne at Georgia Institute of Technology.
 
       My research interests include: 
       System Security, IoT Security, Trusted Computing, Reverse Engineering, and Distributed System.
@@ -54,7 +54,7 @@ career-profile:
       I'm also very interested in playing Capture-the-Flag (CTF).
       
 education:
-    - degree: Ph.D. in Computer Security
+    - degree: Ph.D. in Computer Science
       university: Georgia Institute of Technology
       time: Jun 2018 - present
       details: |
@@ -94,6 +94,7 @@ experiences:
       company: Georgia Institute of Technology, Atlanta, GA
       details: |
         Teaching Assistant for CS 6265,
+
         Information Security Labs [https://tc.gts3.org/cs6265/2019/](https://tc.gts3.org/cs6265/2019/).
 
     - role: CTF Team Member, Team r00timentary
@@ -101,6 +102,7 @@ experiences:
       company: Georgia Institute of Technology, Atlanta, GA
       details: |
         Member of Capture-the-Flag (CTF) team r00timentary.
+
         8th place in DEFCON 27 CTF.
 
     - role: Research Internship
@@ -108,6 +110,7 @@ experiences:
       company: Baidu X-Lab, Sunnyvale, CA
       details: |
         Intern in the Baidu X-Lab security research team.
+
         Worked on abnormal account activities detection using neural network.
 
 projects:
