@@ -137,10 +137,10 @@ projects:
 publications:
     title: Publications
     intro: |
-      Snippet of publications in major security conferences.
+      Snippet of security research publications.
 
     papers:
-      - title: P2FAAS: Toward Privacy-Preserving Fuzzing as a Service
+      - title: "P2FAAS: Toward Privacy-Preserving Fuzzing as a Service"
         authors: Fan Sang, Daehee Jang, Ming-Wei Shih and Taesoo Kim
         conference: ArXiv [link](https://arxiv.org/abs/1909.11164)
 
