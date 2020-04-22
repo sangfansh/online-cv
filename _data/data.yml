@@ -80,9 +80,9 @@ experiences:
       details: |
         Research in [System Software & Security Lab](https://gts3.org); Advisor: [Dr. Taesoo Kim](https://taesoo.kim)
         
-        Topics include security issues with Intel SGX, smart home IoT devices and distributed filesystem.
-          - Dist-Fuzz (in progress): A generic fuzzing framework for finding semantic bugs in distributed filesystems.
-          - P2FaaS (arXiv): A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
+        Topics include security issues with Intel SGX, smart home IoT devices and bug finding.
+          - Fuzzing-seed (in progress): Explore better seed engineering for coverage-guided fuzzing tests.
+          - P2FaaS ([pdf](https://arxiv.org/abs/1909.11164)): A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
             using Intel SGX, SGX Card and oblivious crashing.
           - Rome (sponsored by Samsung): A Wi-Fi router design and implementation for home IoT devices with
             full compatibility and three-layer access control. Under submission. Patent in progress.
