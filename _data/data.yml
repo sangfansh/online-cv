@@ -142,7 +142,7 @@ publications:
     papers:
       - title: "P2FAAS: Toward Privacy-Preserving Fuzzing as a Service"
         authors: Fan Sang, Daehee Jang, Ming-Wei Shih and Taesoo Kim
-        conference: [https://arxiv.org/abs/1909.11164](https://arxiv.org/abs/1909.11164)
+        conference: ["https://arxiv.org/abs/1909.11164"](https://arxiv.org/abs/1909.11164)
 
 skills:
     title: Skills &amp; Proficiency
