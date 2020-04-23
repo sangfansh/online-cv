@@ -139,8 +139,8 @@ publications:
     intro: |
       Snippet of my research publications.
     papers:
-      - title: "P2FAAS: Toward Privacy-Preserving Fuzzing as a Service"
-        link: "https://arxiv.org/abs/1909.11164"
+      - title: "P2FaaS: Toward Privacy-Preserving Fuzzing as a Service"
+        link: "#"
         authors: Fan Sang, Daehee Jang, Ming-Wei Shih and Taesoo Kim
         conference: Arxiv
 
