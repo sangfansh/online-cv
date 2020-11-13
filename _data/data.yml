@@ -81,21 +81,6 @@ experiences:
         Research in [System Software & Security Lab](https://gts3.org); Advisor: [Dr. Taesoo Kim](https://taesoo.kim)
         
         Topics include security issues with Intel SGX, smart home IoT devices and bug finding.
-          - Fuzzing-seed (in progress): Explore better seed engineering for coverage-guided fuzzing tests.
-          - P2FaaS ([pdf](https://arxiv.org/abs/1909.11164)): A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
-            using Intel SGX, SGX Card and oblivious crashing.
-          - Rome (sponsored by Samsung): A Wi-Fi router design and implementation for home IoT devices with
-            full compatibility and three-layer access control. Under submission. Patent in progress.
-          - SGX101 (sponsored by Intel): Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), an Intel SGX tutorial website
-            with programming examples and reference resources.
-
-    - role: Teaching Assistant
-      time: Aug 2019 - Dec 2019
-      company: Georgia Institute of Technology, Atlanta, GA
-      details: |
-        Teaching Assistant for CS 6265,
-
-        Information Security Labs [https://tc.gts3.org/cs6265/2019/](https://tc.gts3.org/cs6265/2019/).
 
     - role: CTF Team Member, Team r00timentary
       time: Jun 2018 - Present
@@ -104,6 +89,22 @@ experiences:
         Member of Capture-the-Flag (CTF) team r00timentary.
 
         8th place in DEFCON 27 CTF.
+
+    - role: Security Research Internship
+      time: May 2020 - Aug 2020
+      company: ByteDance, Mountain View, CA
+      details: |
+        Rust implementation of Intel SGX Provisioning Certificate Caching Service (PCCS).
+
+        A Design of Rust PCCS with Certificate Transparency.
+
+    - role: Teaching Assistant
+      time: Aug 2019 - Dec 2019
+      company: Georgia Institute of Technology, Atlanta, GA
+      details: |
+        Teaching Assistant for CS 6265,
+
+        Information Security Labs [https://tc.gts3.org/cs6265/2019/](https://tc.gts3.org/cs6265/2019/).
 
     - role: Research Internship
       time: Jun 2017 - Aug 2017
@@ -116,23 +117,31 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Projects I have worked on.
+      Projects I have worked on as well as those in progress.
 
     assignments:
-      - title: PintOS in Ubuntu, C
+      - title: Event Notify (in progress)
         link: "#hook"
-        tagline: "Implemented operating system kernel under PintOS skeleton. 
-        4 parts including: Threads, User Programs, Virtual Memory and File Systems."
+        tagline: "A novel interface for [micro]architectural event notifications."
 
-      - title: Password Cracker, C++
-        link: "#"
-        tagline: "Cracked the password by looking up into a huge password dictionary 
-        file and employed parallel brute force approach with Intel TBB library if dictionary approach failed."
+      - title: Prime+Retouch (under submission)
+        link: "#hook"
+        tagline: "An eviction-free L1 cache side-channel attack targeting Tree-PLRU replacement policy."
 
-      - title: DNA Analysis App, C++
+      - title: P2FaaS ([pdf](https://arxiv.org/abs/1909.11164))
+        link: "#hook"
+        tagline: "A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
+        using Intel SGX, SGX Card and oblivious crashing."
+
+      - title: Rome (sponsored by Samsung)
         link: "#"
-        tagline: "Translated the DNA using state machine and construct the amino acid 
-        histogram. Implemented Needlman-Wunsch algorithm for global pairwise sequence alignment to give the similarity of two different DNA chains."
+        tagline: "A Wi-Fi router design and implementation for home IoT devices with
+        full compatibility and three-layer access control. Under submission. Patent in progress."
+
+      - title: SGX101 (sponsored by Intel)
+        link: "#"
+        tagline: "Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), an Intel SGX tutorial website
+        with programming examples and reference resources."
 
 publications:
     title: Publications
@@ -149,10 +158,13 @@ skills:
 
     toolset:
       - name: C/C++
+        level: 70%
+
+      - name: Rust
         level: 60%
 
       - name: Python
-        level: 60%
+        level: 50%
 
 footer: >
     Fan Sang @<a href="https://gts3.org" target="_blank" rel="nofollow">SSLab</a>
