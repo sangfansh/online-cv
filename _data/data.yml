@@ -120,25 +120,25 @@ projects:
       Projects I have worked on as well as those in progress.
 
     assignments:
-      - title: Event Notify (in progress)
-        link: "#hook"
+      - title: Event Notify
+        link: "#"
         tagline: "A novel interface for [micro]architectural event notifications."
 
-      - title: Prime+Retouch (under submission)
-        link: "#hook"
+      - title: Prime+Retouch
+        link: "#"
         tagline: "An eviction-free L1 cache side-channel attack targeting Tree-PLRU replacement policy."
 
-      - title: P2FaaS ([pdf](https://arxiv.org/abs/1909.11164))
-        link: "#hook"
+      - title: P2FaaS
+        link: "#"
         tagline: "A new ecosystem that preserves privacy while providing Fuzzing-as-a-Service in the cloud
         using Intel SGX, SGX Card and oblivious crashing."
 
-      - title: Rome (sponsored by Samsung)
+      - title: Rome
         link: "#"
         tagline: "A Wi-Fi router design and implementation for home IoT devices with
         full compatibility and three-layer access control. Under submission. Patent in progress."
 
-      - title: SGX101 (sponsored by Intel)
+      - title: SGX101
         link: "#"
         tagline: "Author of [https://sgx101.gitbook.io/sgx101/](https://sgx101.gitbook.io/sgx101/), an Intel SGX tutorial website
         with programming examples and reference resources."
